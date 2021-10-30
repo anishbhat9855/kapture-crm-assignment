@@ -1,0 +1,339 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-brand
+{
+    font-weight: bold;
+}
+
+.navbar-brand span
+{
+    color: #ff6200;
+}
+
+.nav-link
+{
+    color: #000 !important;
+}
+
+.nav-link:hover
+{
+    color: #ff6200 !important;
+}
+
+.carousel-indicators > li {
+    border-radius: 100%;
+    height: 10px;
+    width: 15px;
+  }
+
+  .carousel-caption h1{
+      font-size: 3rem;
+  }
+
+  .carousel-caption{
+    top: 50%;
+    transform: translateY(-20%);
+  }
+
+  .btn-orange
+  {
+      background-color: #ff6200;
+      color: #fff;
+  }
+
+  .carousel-item img{
+    filter: brightness(50%);
+  }
+
+
+  /*Services Section*/
+
+  .services{
+      padding: 5%;
+  }
+
+  .services h2 {
+        font-weight: bold;
+        display: inline-block;
+        padding-bottom: 5px;
+        position: relative;
+      }
+     .services h2:before{
+          content: "";
+          position: absolute;
+          width: 50%;
+          height: 20px;
+          bottom: 0;
+          left: 0%;
+          border-bottom: 3px solid #ff6200;
+      }
+
+      .services p{
+          width: 50%;
+      }
+
+      .sub-services{
+          margin-left: 5%;
+          margin-right: 5%;
+        }
+
+        .sub-services .col-lg-10 h4{
+            color: #ff6200;
+        }
+
+
+        /*Portfolio section*/
+
+        .portfolio{
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .portfolio h2 {
+            font-weight: bold;
+            display: inline-block;
+            padding-bottom: 5px;
+            position: relative;
+          }
+         .portfolio h2:before{
+              content: "";
+              position: absolute;
+              width: 50%;
+              height: 20px;
+              bottom: 0;
+              left: 25%;
+              border-bottom: 3px solid #ff6200;
+          }
+
+          .card{
+            border-radius: 10px;
+            background: #fff;
+            box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+              transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+          padding: 14px 80px 18px 36px;
+          cursor: pointer;
+          margin-bottom: 20px;
+          min-height: 250px;
+        }
+        
+        .card:hover{
+             transform: scale(1.05);
+          box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+        }
+        
+        
+        .card-1{
+              background-repeat: no-repeat;
+            background-position: right;
+            background-size: 100%;
+        }
+        
+        .card-2{
+           background-image: url(https://ionicframework.com/img/getting-started/components-card.png);
+              background-repeat: no-repeat;
+            background-position: right;
+            background-size: 80px;
+        }
+        
+        .card-3{
+           background-image: url(https://ionicframework.com/img/getting-started/theming-card.png);
+              background-repeat: no-repeat;
+            background-position: right;
+            background-size: 80px;
+        }
+        
+        @media(max-width: 990px){
+          .card{
+            margin: 20px;
+          }
+        } 
+
+        /*FAQ's*/
+
+        .faqs{
+            background-color: #f2f2f2;
+            text-align: center;
+            padding: 5%;
+        }
+
+        .faqs .under {
+            font-weight: bold;
+            display: inline-block;
+            padding-bottom: 5px;
+            position: relative;
+          }
+         .faqs .under:before{
+              content: "";
+              position: absolute;
+              width: 20%;
+              height: 20px;
+              bottom: 0;
+              left: 40%;
+              border-bottom: 3px solid #ff6200;
+          }
+
+
+          .accordion {
+            background-color: #fff;
+            color: #444;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+            transition: 0.4s;
+            margin-top: 20px;
+          }
+          
+          .active, .accordion:hover {
+            background-color: #fff; 
+          }
+          
+          .panel {
+            padding: 0 18px;
+            display: none;
+            background-color: white;
+            overflow: hidden;
+          }
+
+          /*About us section*/
+          .aboutus{
+              text-align: center;
+              padding: 5%;
+          }
+          .aboutus .under {
+            font-weight: bold;
+            display: inline-block;
+            padding-bottom: 5px;
+            position: relative;
+          }
+         .aboutus .under:before{
+              content: "";
+              position: absolute;
+              width: 20%;
+              height: 20px;
+              bottom: 0;
+              left: 40%;
+              border-bottom: 3px solid #ff6200;
+          }
+
+
+          /*Footer-1*/
+
+          .footer-1
+          {
+              height: 400px;
+              text-align: center;
+              filter: brightness(90%);
+          }
+
+          .center-text{
+              position: relative;
+              top: 180px;
+          }
+
+          .center-text a{
+            text-decoration: none;
+            color: #ff6200;
+          }
+
+          .footer-2{
+              margin-top: 20px;
+          }
+
+          .footer-2 a{
+              text-decoration: none;
+          }
+
+          .center-text a:hover{
+            color: #ff8d47;
+          }
+
+          .social-media
+          {
+            float: right;
+          }
+
+
+          /* Media Queries*/
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .carousel-caption{
+    top: 40%;
+    transform: translateY(-20%);
+  }
+  .carousel-caption h1{
+    font-size: 2rem;
+  }
+  .btn-orange
+  {
+    width: 130px;
+    height: 40px;
+  }
+  .central{
+    text-align: center;
+  }
+  .social-media
+  {
+    float: none;
+    text-align: center;
+  }
+  .sub-services{
+    text-align: center;
+  }
+
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .carousel-caption{
+    top: 45%;
+    transform: translateY(-20%);
+  }
+  .sub-services{
+    text-align: center;
+  }
+
+ 
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .carousel-caption{
+    top: 40%;
+    transform: translateY(-20%);
+  }
+  .sub-services{
+    text-align: center;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .carousel-caption{
+    top: 50%;
+    transform: translateY(-20%);
+  }
+  .sub-services{
+    text-align: center;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .carousel-caption{
+    top: 50%;
+    transform: translateY(-20%);
+  }
+  
+}
+    
